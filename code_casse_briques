@@ -128,7 +128,7 @@ class balle():
                     compteur = True
                 if compteur : #s'il y a eu une collision  
                     if b[1] > 1:
-                        b[1] -=1 #on diminue la difficculté de la brique (son "nombre de vie")
+                        b[1] -=1 #on diminue la difficulté de la brique (son "nombre de vie")
                         cb +=1
                     else : 
                         briques.liste_briques[cl].pop(cb) #la brique disparait 
